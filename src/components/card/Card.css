@@ -1,0 +1,181 @@
+body {
+  background-image: linear-gradient(135deg, #07395d 0%, #041825 14%);
+  font-family: Inter, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mains {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  height: auto;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  justify-content: space-evenly;
+  color: white;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.mains p,
+h2 {
+  display: flex;
+  margin: 0px;
+  padding: 9px 5px;
+  align-content: center;
+  justify-content: center;
+  line-height: 27px;
+}
+
+.title {
+  display: flex;
+  height: 120px;
+  overflow-y: auto;
+  padding: 0px 8px;
+  justify-content: center;
+}
+
+.card-container {
+  margin: 20px;
+  flex-basis: 30%;
+  border: solid rgba(255, 255, 255, 0.219) 2px;
+}
+
+.profile-pic {
+  display: inline-block;
+  height: 280px;
+  width: 240px;
+  box-sizing: border-box;
+  transition: box-shadow 0.6s ease-in-out;
+}
+
+.profile-pic:hover {
+  box-shadow: 10px 10px 8px grey;
+  transition: box-shadow 0.6s ease-in-out;
+}
+
+.info {
+  background-color: #1a1b21;
+  text-align: center;
+  padding-top: 20px;
+
+  border-radius: 8px 8px 0px 0px;
+}
+
+.author {
+  display: block;
+  margin: 10px 0px;
+  color: #f3bf99;
+  height: 120px;
+  padding: 0px 10px;
+  width: 90%;
+  word-spacing: 5px;
+  font-size: 26px;
+}
+
+.author h3 {
+  margin: 10px 10px;
+}
+
+.info-type {
+  display: block;
+  height: 100px;
+  text-align: left;
+  margin: 0px 5%;
+  overflow: auto;
+  padding-left: 5%;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 8% 0%;
+  width: 100%;
+}
+
+.btn-linkedin {
+  text-decoration: none;
+  padding: 14px 15px;
+  color: white;
+  background-color: #5093e2;
+  align-items: center;
+  margin: 9px 7px 10px 8px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 20px;
+}
+
+.fas {
+  padding: 5px 10px;
+  color: red;
+}
+
+.fa-mobile-screen-button {
+  font-size: 18px;
+  padding: 2px 10px;
+}
+
+.btn-overview {
+  text-decoration: none;
+  color: white;
+  margin: 9px 7px 10px 5px;
+  padding: 14px 15px;
+  width: 3%;
+  align-items: center;
+  border-radius: 20px;
+  font-size: 14px;
+  background-color: #5093e2;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+.btn-overview:active,
+.btn-linkedin:active {
+  background-color: #5094e29a;
+}
+
+.fa-eye::before {
+  padding: 2px 10px;
+  font-size: 18px;
+}
+
+.add-fav {
+  display: block;
+  background-color: #1a1b21;
+  padding: 20px 10%;
+  color: #dcdcdc;
+  align-content: center;
+}
+
+.add-fav button {
+  width: 100%;
+  background-color: rgba(236, 209, 60, 0.877);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  color: black;
+  font-size: 20px;
+}
+
+.add-fav button:active {
+  background-color: rgba(236, 209, 60, 0.288);
+}
+
+.interest {
+  padding-bottom: 20px;
+}
+
+.footer {
+  display: flex;
+  background-color: #161619;
+  height: 65px;
+  padding-top: 20px;
+  justify-content: center;
+  border-radius: 0px 0px 20px 10px;
+}
+
+.footer > i {
+  font-size: 35px;
+  padding: 2px 22px;
+  background-color: transparent;
+}

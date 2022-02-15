@@ -1,0 +1,52 @@
+.pagination {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-content: center;
+  color: white;
+}
+.pagination button {
+  height: 60px;
+  width: 25%;
+  margin: 0% 4.5%;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.295);
+  font-size: 25px;
+  font-weight: 700;
+  word-spacing: 5px;
+  color: white;
+  padding-bottom: 0.5%;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: rgba(255, 255, 255, 0.075);
+  color: rgb(97, 97, 97);
+  border: 2px solid grey;
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.pagination button:active {
+  background-color: rgba(255, 255, 255, 0.705);
+}
+
+.fa-backward {
+  font-size: 35px;
+  padding-right: 20%;
+  color: #e6792b;
+}
+
+.fa-forward {
+  padding-left: 20%;
+  font-size: 35px;
+  color: #e6792b;
+}
+
+.num {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #e6792b;
+}

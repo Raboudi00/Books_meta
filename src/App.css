@@ -1,0 +1,21 @@
+body {
+  margin: 0px;
+}
+
+.App {
+  margin-bottom: 0px;
+}
+
+.spinner {
+  display: block;
+  position: absolute;
+  left: 40%;
+  top: 50%;
+}
+
+.counter {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  color: #e6792b;
+}
